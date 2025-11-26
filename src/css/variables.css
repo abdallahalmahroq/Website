@@ -1,0 +1,49 @@
+/* CSS Variables - Design System */
+:root {
+    /* Colors */
+    --primary: #6b46c1;
+    --secondary: #805ad5;
+    --accent: #d6bcfa;
+    --light: #faf5ff;
+    --light-gray: #e9ecef;
+    --text: #2d3748;
+    --white: #ffffff;
+    --dark-purple: #553c9a;
+    --neon-purple: #bf00ff;
+    --neon-pink: #bf00ff;
+    --neon-blue: #8a2be2;
+    --neon-green: #9370db;
+    
+    /* Gradients */
+    --gradient: linear-gradient(135deg, #805ad5 0%, #6b46c1 50%, #553c9a 100%);
+    --laser-gradient: linear-gradient(45deg, #8a2be2, #9370db, #6a0dad, #4b0082);
+    
+    /* Background */
+    --bg-primary: #0a0a1a;
+    --bg-secondary: rgba(10, 10, 26, 0.8);
+    --bg-card: rgba(191, 0, 255, 0.05);
+    --bg-card-hover: rgba(191, 0, 255, 0.1);
+    
+    /* Shadows */
+    --shadow-sm: 0 0 10px rgba(191, 0, 255, 0.3);
+    --shadow-md: 0 0 20px rgba(191, 0, 255, 0.5);
+    --shadow-lg: 0 0 30px rgba(191, 0, 255, 0.7);
+    --shadow-xl: 0 0 40px rgba(191, 0, 255, 0.8);
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    
+    /* Typography */
+    --font-primary: 'Poppins', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s ease;
+}
+

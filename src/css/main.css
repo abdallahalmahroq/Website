@@ -1,0 +1,19 @@
+/* Main Stylesheet - Imports all component styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+/* Import Variables First */
+@import './variables.css';
+
+/* Import Base Styles */
+@import './base.css';
+
+/* Import Components */
+@import './components/laser-grid.css';
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/welcome-section.css';
+@import './components/about-section.css';
+@import './components/offerings.css';
+@import './components/pages.css';
+@import './components/buttons.css';
+

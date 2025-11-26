@@ -1,0 +1,22 @@
+{
+  "name": "aiminds-website",
+  "version": "1.0.0",
+  "description": "AiMinds - Jordan's AI & Data Science Community Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 8080 -o",
+    "start": "npx http-server . -p 8080"
+  },
+  "keywords": [
+    "ai",
+    "data-science",
+    "community",
+    "jordan"
+  ],
+  "author": "AiMinds Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+
